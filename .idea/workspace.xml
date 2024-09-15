@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb9e0d9-8512-4a79-a420-b511cbb875c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Database/Connector.php" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Connector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BaseModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="4bb9e0d9-8512-4a79-a420-b511cbb875c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +74,7 @@
       <updated>1726324771290</updated>
       <workItem from="1726324772323" duration="6606000" />
       <workItem from="1726333538630" duration="4736000" />
-      <workItem from="1726372492329" duration="3510000" />
+      <workItem from="1726372492329" duration="3810000" />
     </task>
     <servers />
   </component>
