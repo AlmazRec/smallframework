@@ -8,18 +8,18 @@ use Src\Views\Views;
 
 class PostController extends Connector
 {
-    public function index(): null
+    public function index(): null // страница с постами
     {
         $views = new Views();
         return $views->view('Post/index');
     }
 
-    public function create(): null
+    public function create(): null // возвращает форму для создания поста
     {
         $views = new Views();
         return $views->view('Post/create');
     }
-    public function store(): void
+    public function store(): void // обработка данных
     {
         $model = new Post();
 

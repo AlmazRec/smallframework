@@ -4,10 +4,12 @@ namespace App\Models;
 
 use Database\Connector;
 
+
+// Родитель всех последующих моделей
 abstract class BaseModel extends Connector
 {
 
-    public function all($table): array
+    public function all($table): array // берет все из таблицы
     {
         $sql = "SELECT * FROM $table";
         $stmt = $this->conn->prepare($sql);
@@ -15,7 +17,7 @@ abstract class BaseModel extends Connector
         $result = $stmt->get_result();
         return $result->fetch_all();
     }
-    public function find($table, $id): array
+    public function find($table, $id): array // ищет запись по ID
     {
         $sql = "SELECT * FROM $table WHERE id = ?";
         $stmt = $this->conn->prepare($sql);
@@ -27,7 +29,7 @@ abstract class BaseModel extends Connector
         return $result->fetch_all();
     }
 
-    public function create($table, $data): false|int|string
+    public function create($table, $data): false|int|string // добавляет данные в таблицу
     {
         $fields = implode(", ", array_keys($data));
         $placeholders = implode(", ", array_fill(0, count($data), '?'));

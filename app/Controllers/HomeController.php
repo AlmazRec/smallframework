@@ -3,6 +3,8 @@
 namespace App\Controllers;
 use Src\Views\Views;
 
+// велком ту ферст контроллер
+
 class HomeController
 {
     public function index()

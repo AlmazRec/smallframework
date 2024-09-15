@@ -3,6 +3,8 @@
 use App\Controllers\HomeController;
 use App\Controllers\PostController;
 
+// тут распологаются все маршруты
+
 $routes = [
     '/' => [
         'controller' => HomeController::class,

@@ -2,6 +2,7 @@
 
 namespace Database;
 
+// Коннектор к базе, пока-что только mysqli
 class Connector
 {
     protected $conn;
